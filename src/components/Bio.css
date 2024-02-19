@@ -1,0 +1,28 @@
+.bio {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .bio-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .bio-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .bio-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .bio-description {
+    font-size: 18px;
+    color: #666;
+  }
+  
