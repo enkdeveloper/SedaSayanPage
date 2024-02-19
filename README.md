@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Overview
 
-## Available Scripts
+This project is a web application focused on showcasing iconic moments and quotes related to the renowned Turkish celebrity, Seda Sayan. It consists of two main components:
 
-In the project directory, you can run:
+Bio Component (Bio.js):
 
-### `npm start`
+This component displays information about Seda Sayan, including her image, name, and a brief description.
+It imports an image of Seda Sayan and displays it alongside her name and description.
+The component is styled using CSS to ensure a visually appealing presentation.
+Events Component (Events.js):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This component allows users to view and manage iconic quotes related to Seda Sayan.
+Users can add new quotes, edit existing ones, or delete them.
+Each quote is displayed in a list format, accompanied by edit and delete icons for user interaction.
+The component provides a text input field for adding new quotes and dynamically updates the list of quotes accordingly.
+How to Run the Project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ensure you have Node.js and npm installed on your system.
+Clone the project repository from GitHub.
+Navigate to the project directory in your terminal.
+Run npm install to install project dependencies.
+Run npm start to start the development server.
+Open your web browser and visit http://localhost:3000 to view the application.
+Project Structure:
 
-### `npm test`
+components/: Contains React components used in the project.
+Bio.js: Displays information about Seda Sayan.
+Events.js: Manages iconic quotes related to Seda Sayan.
+images/: Contains image assets used in the project.
+seda-sayan.jpg: Image of Seda Sayan displayed in the Bio component.
+App.js: Main entry point of the application, renders the Bio and Events components.
+App.css: Stylesheet for the main application layout.
+Bio.css: Stylesheet for the Bio component.
+Events.css: Stylesheet for the Events component.
+Contributing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributions to the project are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
+For any major changes or feature additions, please open an issue first to discuss the changes.
+<img width="960" src="https://github.com/enkdeveloper/SedaSayanPage/assets/119349974/7dbb2408-26f7-4dc0-b534-df63d8aaf162">
+<img width="960" src="https://github.com/enkdeveloper/SedaSayanPage/assets/119349974/06f020c3-31d9-45c0-81c5-d34fa162df7d">
+<img width="958" src="https://github.com/enkdeveloper/SedaSayanPage/assets/119349974/81287d65-3b86-4f82-9144-0010a227ce39">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
